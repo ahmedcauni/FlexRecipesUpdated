@@ -1,0 +1,20 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    display: flex;
+    max-height: 300px;
+    background-color: #1F2937;
+    flex-direction: column;
+}
+.topheader{
+display: flex;
+justify-content: space-between;
+}
+.bottomheader{
+display: flex;
+justify-content: center;
+gap: 18px;
+flex-grow: 1;
+}
