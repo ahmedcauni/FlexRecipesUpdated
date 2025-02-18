@@ -7,11 +7,58 @@ body{
 }
 .header{
     display: flex;
-    max-height: 500px;
+    height: 400px;
     background-color: #1F2937;
-    flex-direction: column;
+    justify-content: space-around;
     font-family: 'Roboto', sans-serif;
 }
+
+.headerleft{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+}
+.headerlogo{
+    padding-top: 15px;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.loksha{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    max-width: 50%;
+    gap: 15px;
+    padding-bottom: 20px;
+}
+.lokshaheader{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+.lokshadetails{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    font-family: Roboto, sans-serif;
+    border: none;
+    border-radius: 10px;
+    background: #3882F6;
+    padding: 14px 28px;
+    color: white;
+    font-size: 18px;
+  }
+
+
+
+
+
 /* top header part*/
 .topheader{
 display: flex;
@@ -20,11 +67,7 @@ padding-top: 18px;
 padding-bottom: 50px;
 
 }
-.topheaderleft{
-    font-size: 24px;
-    color: #F9FAF8;
-    font-weight: bold;
-}
+
 .topheaderright{
     font-size: 18px;
     color: #E5E7EB;
@@ -39,10 +82,20 @@ ul {
   }
 .bottomheader{
 display: flex;
-justify-content: center;
+justify-content: space-around;
 gap: 18px;
 flex-grow: 1;
 }
 
 /*bottom header part*/
+.bottomheaderleft{
+    display: flex;
+    justify-content: column;
 
+}
+/*HEADER OF THIS ARE AWESOME*/
+.bottomstyle1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
