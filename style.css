@@ -118,7 +118,9 @@ max-width: 380px;
     gap: 50px;
     text-align: center;
 }
-
+.item{
+    max-width: 100px;
+}
 .coltopbottom img{
      border: 5px solid #3882F6;
      border-radius: 10px;
