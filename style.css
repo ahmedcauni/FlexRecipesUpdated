@@ -187,4 +187,14 @@ max-width: 380px;
     border-color: #E5E7EB;
     border: 2px solid;
 }
-
+.footer{
+    width: 100%;
+    display: flex;
+    padding: 30px;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    color: #eff1f5;
+    font-size: 15px;
+    
+}
