@@ -114,18 +114,31 @@ max-width: 380px;
     padding-top: 50px;
 }
 .coltopbottom{
+    margin: 20px;
     display: flex;
-    gap: 50px;
+    gap: 140px;
     text-align: center;
+    justify-content: center;
+    align-items: flex-start;
 }
 .item{
-    max-width: 100px;
+    max-width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text{
+    margin: 10px;
+    max-width: 60%;
+    text-align: center;
 }
 .coltopbottom img{
      border: 5px solid #3882F6;
      border-radius: 10px;
-     max-width: 200px;
-     height: 100px;
+     max-width: 250px;
+     height: 150px;
 }
 
 .colmid{
