@@ -131,7 +131,7 @@ max-width: 380px;
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
-    height: 300px;
+    height: 450px;
     justify-content: center;
     gap: 10px;
     
@@ -155,3 +155,36 @@ max-width: 380px;
     max-width: 75%;
 
 }   
+
+.colbot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+}
+
+.colbotbox{
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    gap: 50px;
+    margin: 20px;
+    padding: 30px 180px;
+    border-radius: 25px;
+}
+.colbotleft{
+    
+    color: #E5E7EB;
+    font-size: 18px;
+}
+    
+.colbotleft .title{
+    font-weight: bold;
+}
+
+.colbotbox button{
+    border-color: #E5E7EB;
+    border: 2px solid;
+}
+
